@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - print if the number is postive, zero, or negative
  *
  * Description: using the main function
@@ -21,7 +20,7 @@ int main(void)
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 
 	{
-	
+
 		putchar(ch);
 
 	}
@@ -39,4 +38,3 @@ int main(void)
 	return (0);
 
 }
-
