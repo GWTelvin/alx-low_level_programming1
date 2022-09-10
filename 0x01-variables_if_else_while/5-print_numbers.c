@@ -20,7 +20,7 @@ int main(void)
 
 	char ch;
 
-	for (ch = '0' ; ch <= '10' ; ch++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 
 	{
 
