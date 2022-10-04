@@ -2,9 +2,9 @@
 
 /**
  * _strdup - returns a pointer to a newly allocated
- * space in memory, which cntains a copy of the 
+ * space in memory, which cntains a copy of the
  * string given as a paramemter.
- * @str: String to be copied 
+ * @str: String to be copied
  *
  * Return: NULL in case of error, pointer to allocated
  * space
@@ -16,7 +16,7 @@ char *_strdup(char *str);
 	int index, len;
 
 	if (str == NULL)
-	return(NULL);
+		return (NULL);
 
 	for (index = 0; str[index]; index++)
 		len++;
