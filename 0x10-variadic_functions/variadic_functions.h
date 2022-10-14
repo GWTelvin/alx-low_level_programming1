@@ -1,12 +1,14 @@
-#include <stdarg.h>
+#ifndef _VARIADIC_FUNCTIONS_H_
+#define _VARIADIC_FUNCTIONS_H_
 
+#include <stdarg.h>
 /**
  * struct print - print type with correspoding print function
  * @t: print type
  * @f: print function
  */
 
-typrdef struct print
+typedef struct print
 {
 	char *t;
 	void (*f)(va_list);
