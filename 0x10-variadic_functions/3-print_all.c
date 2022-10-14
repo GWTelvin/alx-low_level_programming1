@@ -81,7 +81,7 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (p[j].t != NULL)
 		{
-			if (*(p[j].t == format[i])
+			if (*(p[j].t) == format[i])
 			{
 				printf("%s", separator);
 				p[j].f(valist);
